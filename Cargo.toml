@@ -1,0 +1,8 @@
+[package]
+name = "Snake64"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+bracket-lib = "0.8.7"
+rand = "0.9.0"
