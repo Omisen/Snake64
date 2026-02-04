@@ -41,14 +41,6 @@ impl SnakeGameState {
         }
     }
 
-    pub fn restart(& mut self) {
-        self.player = Player::new(PLAYER_COLOR);
-        self.enemy = Player::new(ENEMY_COLOR);
-        self.map = Map::new();
-        self.fruit = self.fruit_builder();
-        self.is_ended = false;
-    }
-
     pub fn fruit_builder(&mut self) -> Fruit {
 
         let mut rng = RandomNumberGenerator::new();
