@@ -59,7 +59,7 @@ impl Player {
         let glyph;
         match self.facing {
             Direction::Up => { glyph = '^'; }
-            Direction::Down => { glyph = ','; }
+            Direction::Down => { glyph = 'v'; }
             Direction::Left => { glyph = '<'; }
             Direction::Right => { glyph = '>'; }
         }
